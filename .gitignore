@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Jupyter
+*.nbconvert.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Data — exclude downloaded raw data; keep cleaned CSVs in repo if small
+data/*.csv
+!data/spacex_launch_dash.csv
+!data/spacex_launch_geo.csv
+
+# Build artefacts
+*.log
+spacex.db
